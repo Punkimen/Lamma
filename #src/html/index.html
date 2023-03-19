@@ -11,18 +11,18 @@
 </head>
 
 <body class="bg-grey-100 ">
-    <div class="grid p-4 grid-cols-12 gap-9  min-h-screen">
-        @@include('components/_aside.html')
-        <div class="body rounded-lg col-span-10">
+    <div class="flex  grid-cols-12 p-2  min-h-screen">
+        <!-- @@include('components/_aside.html') -->
+        <div class="body w-full">
             @@include('components/_header.html')
             @@include('components/_body.html')
         </div>
     </div>
     @@include('components/_scripts.html')
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <!-- <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
-    <script src="js/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/newChart.js"></script>
 
 </body>
 

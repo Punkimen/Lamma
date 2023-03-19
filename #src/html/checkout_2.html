@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  @@include('components/_style.html')
+</head>
+
+<body class="bg-grey-100">
+  <section class="min-h-screen py-6">
+    <div class="container">
+      <div class="flex justify-center items-center mb-20">
+        <div class="h-1 w-8 bg-main"></div>
+        <div
+          class="w-4 h-4 rounded-hf bg-main relative mx-1 after:content-[''] after:w-1.5 after:h-1.5 after:bg-white after:rounded-hf after:absolute after:left-1/2 after:top-1/2 after:-translate-y-1/2 after:-translate-x-1/2">
+          <span class="absolute top-full left-1/2 -translate-x-1/2 text-xs whitespace-nowrap">Authorization</span>
+        </div>
+        <div class="h-1 w-20 bg-grey-300"></div>
+        <div class="w-4 h-4 rounded-hf bg-grey-300 relative mx-1">
+          <span class="absolute top-full left-1/2 -translate-x-1/2 text-xs text-grey-300 whitespace-nowrap">Choose
+            Plan</span>
+        </div>
+        <div class="h-1 w-20 bg-grey-300"></div>
+        <div class="w-4 h-4 rounded-hf bg-grey-300 relative mx-1">
+          <span
+            class="absolute top-full left-1/2 -translate-x-1/2 text-xs text-grey-300 whitespace-nowrap">Payment</span>
+        </div>
+        <div class="h-1 w-8  bg-grey-300"></div>
+      </div>
+      <div class="grid grid-cols-12 gap-10">
+        <div class="col-span-5 bg-white rounded-xl p-8">
+          <a href="#" class="border inline-flex items-center rounded-md px-4 py-2 mb-6">
+            <img src="img/icons/arrow-link.svg" class="mr-2" alt="arrow-link">
+            <span>ikea</span>
+          </a>
+          <div class="flex items-start">
+            <img src="img/product.png" class="mr-6 block max-w-[102px] w-full h-auto" alt="product">
+            <div class="">
+              <div class="font-bold text-lg mb-2">MELLTORP / ÄLVSTA</div>
+              <div class="text-grey-300 mb-4">Table and 2 chairs, white white/rattan white, 75x75 cm</div>
+              <div class="flex items-end justify-between mb-2">
+                <div class="mr-2">Quantity</div>
+                <div class="font-semibold">10</div>
+              </div>
+              <div class="flex items-end justify-between mb-2">
+                <div class="mr-2">Invoice date</div>
+                <div class="font-semibold">17 Jan 2023</div>
+              </div>
+              <div class="flex items-end justify-between mb-2">
+                <div class="mr-2">Subscription cost</div>
+                <div class="font-semibold">SAR 8,028.7</div>
+              </div>
+              <div class="flex items-end justify-between mb-2">
+                <div class="mr-2">VAT</div>
+                <div class="font-semibold">SAR 0</div>
+              </div>
+              <div class="flex items-end justify-between">
+                <div class="font-bold mr-2">Total to be paid</div>
+                <div class="font-bold">SAR 8,028.7</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-7 bg-white rounded-xl p-8">
+          <div class="text-center font-bold text-2xl mb-10">Welcome back</div>
+          <div class="border border-grey-300 p-4 mb-4 rounded-xl relative">
+            <label for="" class="block mb-1">Email</label>
+            <input type="text" class="font-bold block w-full outline-none" placeholder="Please enter">
+          </div>
+          <div class="border border-grey-300 p-4 mb-4 rounded-xl relative">
+            <div id=" toggle-password" class="
+            absolute top-1/2 right-4 cursor-pointer">
+              <img src="img/icons/eye-icon.svg" alt="eye">
+            </div>
+            <label for="" class="block mb-1">Password</label>
+            <input type="password" class="font-bold block w-full outline-none" placeholder="Please enter">
+          </div>
+          <div class="flex items-center justify-between mb-10">
+            <div class=" mb-2 block min-h-6 pl-6">
+              <input
+                class="relative float-left mt-[0.15rem] mr-[6px] -ml-[1.5rem] h-[1.125rem] w-[1.125rem] appearance-none rounded-hf border-2 border-solid border-blue-300 dark:border-blue-600 outline-none before:pointer-events-none before:absolute before:h-[0.875rem] before:w-[0.875rem] before:scale-0 before:rounded-full before:bg-transparent before:opacity-0  before:content-[''] checked:border-blue-600 dark:checked:border-blue-600 checked:bg-blue-600 dark:checked:bg-blue-600 checked:before:opacity-[0.16] checked:after:absolute checked:after:ml-[0.25rem] checked:after:-mt-px checked:after:block checked:after:h-[0.8125rem] checked:after:w-[0.375rem] checked:after:rotate-45 checked:after:border-2 checked:after:border-t-0 checked:after:border-l-0 checked:after:border-solid checked:after:border-white checked:after:bg-transparent checked:after:content-[''] hover:cursor-pointer hover:before:opacity-[0.04] focus:transition-[border-color_0.2s] focus:before:scale-100 focus:before:opacity-[0.12] focus:before:transition-[transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-[0.875rem] focus:after:w-[0.875rem] focus:after:rounded-[0.125rem] focus:after:content-[''] checked:focus:before:scale-100  checked:focus:after:ml-[0.25rem] checked:focus:after:-mt-px checked:focus:after:h-[0.8125rem] checked:focus:after:w-[0.375rem] checked:focus:after:rotate-45 checked:focus:after:rounded-none checked:focus:after:border-2 checked:focus:after:border-t-0 checked:focus:after:border-l-0 checked:focus:after:border-solid checked:focus:after:border-white checked:focus:after:bg-transparent"
+                type="checkbox" value="" id="remember" />
+              <label class="mt-px inline-block  hover:cursor-pointer" for="remember">
+                Remember me
+              </label>
+            </div>
+            <a href="#" class="font-bold text-main">Forgot password</a>
+          </div>
+          <button class="block w-full bg-gradient-to-r from-blue-400 to-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-8
+          rounded-md whitespace-nowrap">Login</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  @@include('components/_scripts.html')
+</body>
+
+</html>
