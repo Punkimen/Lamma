@@ -4,8 +4,8 @@
       <div class="">Available Credit Balance</div>
       <div class="flex items-center justify-between mb-5">
         <div class="flex items-end mr-2">
-          <span class="text-s32 leading-[32px] mr-1">0.00</span>
-          <span class="text-grey-300 text-s24 leading-[1em]">SAR</span>
+          <span class="text-s32 leading-normal  mr-1">0.00</span>
+          <span class="text-grey-300 text-s24 leading-normal ">SAR</span>
         </div>
         <button class=" bg-gradient-to-r from-blue-400 to-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-8
             rounded-xm max-w-w172 w-full">
@@ -45,7 +45,7 @@
         </div>
       </div>
     </div>
-    <div class=" bg-white rounded-xl border border-grey-200 p-6 sm:mb-0 mb-4">
+    <div class=" bg-white rounded-xl border border-grey-200 p-6 xl:mb-0 mb-4">
       <div class="demo-body__chart overflow-x-auto">
         <canvas id="chart" style="height: 350px; margin: 0px auto;"></canvas>
       </div>
@@ -56,7 +56,7 @@
       <div class="mb-4">Repayments Summary</div>
       <div class="flex justify-between items-start rounded-2xl min-h-h120 mb-5"
         x-data="{ circumference: 50 * 2 * Math.PI, percent: 80 }">
-        <div class="flex mr-5 w-52 min-w-max	flex-grow: 1; items-center justify-center overflow-hidden">
+        <div class="flex mr-5 w-52 min-w-fit	flex-grow: 1; items-center justify-center overflow-hidden">
           <svg class="w-36 h-36 transform translate-x-1 translate-y-1" x-cloak aria-hidden="true">
             <circle class="text-grey-200" stroke-width="10" stroke="currentColor" fill="transparent" r="60" cx="70"
               cy="70" />
@@ -88,8 +88,8 @@
           </div>
         </div>
       </div>
-      <div class="sm:flex block">
-        <div class="flex sm:mr-6 items-center mb-6">
+      <div class="sm:flex block items-center">
+        <div class="flex sm:mr-6 items-center sm:mb-0 mb-6">
           <span class="text-2xl mr-2">0</span>
           <span class="color-grey-300">Total Payments Made</span>
         </div>
