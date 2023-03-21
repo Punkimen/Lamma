@@ -13,105 +13,47 @@
 <body class="bg-grey-100">
   <section class="min-h-screen py-6">
     <div class="container">
-      <div class="flex justify-center items-center mb-20">
-        <div class="h-1 w-8 bg-main"></div>
-        <div
-          class="w-4 h-4 rounded-hf bg-main relative mx-1 after:content-[''] after:w-1.5 after:h-1.5 after:bg-white after:rounded-hf after:absolute after:left-1/2 after:top-1/2 after:-translate-y-1/2 after:-translate-x-1/2">
-          <span class="absolute top-full left-1/2 -translate-x-1/2 text-xs whitespace-nowrap">Authorization</span>
+      <img class="block mx-auto mb-6" src="./img/icons/success.svg" alt="success">
+      <div class="bg-white rounded-xl p-8 max-w-w680 w-full mx-auto mb-6">
+        <div class="font-bold text-2xl text-center mb-2">
+          Purchase Successful
         </div>
-        <div class="h-1 w-20 bg-grey-300"></div>
-        <div class="w-4 h-4 rounded-hf bg-grey-300 relative mx-1">
-          <span class="absolute top-full left-1/2 -translate-x-1/2 text-xs text-grey-300 whitespace-nowrap">Choose
-            Plan</span>
-        </div>
-        <div class="h-1 w-20 bg-grey-300"></div>
-        <div class="w-4 h-4 rounded-hf bg-grey-300 relative mx-1">
-          <span
-            class="absolute top-full left-1/2 -translate-x-1/2 text-xs text-grey-300 whitespace-nowrap">Payment</span>
-        </div>
-        <div class="h-1 w-8  bg-grey-300"></div>
-      </div>
-      <div class="grid grid-cols-12 gap-10 mb-6">
-        <div class="col-span-5 bg-white rounded-xl p-8">
-          <a href="#" class="border inline-flex items-center rounded-md px-4 py-2 mb-6">
-            <img src="img/icons/arrow-link.svg" class="mr-2" alt="arrow-link">
-            <span>ikea</span>
-          </a>
-          <div class="flex items-start">
-            <img src="img/product.png" class="mr-6 block max-w-[102px] w-full h-auto" alt="product">
-            <div class="">
-              <div class="font-bold text-lg mb-2">MELLTORP / ÄLVSTA</div>
-              <div class="text-grey-300 mb-4">Table and 2 chairs, white white/rattan white, 75x75 cm</div>
-              <div class="flex items-end justify-between mb-2">
-                <div class="mr-2">Quantity</div>
-                <div class="font-semibold">10</div>
-              </div>
-              <div class="flex items-end justify-between mb-2">
-                <div class="mr-2">Invoice date</div>
-                <div class="font-semibold">17 Jan 2023</div>
-              </div>
-              <div class="flex items-end justify-between mb-2">
-                <div class="mr-2">Subscription cost</div>
-                <div class="font-semibold">SAR 8,028.7</div>
-              </div>
-              <div class="flex items-end justify-between mb-2">
-                <div class="mr-2">VAT</div>
-                <div class="font-semibold">SAR 0</div>
-              </div>
-              <div class="flex items-end justify-between">
-                <div class="font-bold mr-2">Total to be paid</div>
-                <div class="font-bold">SAR 8,028.7</div>
-              </div>
-            </div>
+        <div class="text-center text-grey-300 mb-6">An invoice will be sent to your Lamaa account, you can make your
+          payment via your Lamaa dashboad.</div>
+        <div class="mb-6">
+          <div class="font-bold text-xl mb-1">BNPL Details</div>
+          <div class="flex items-center justify-between">
+            <div class="text-grey-300 mr-2">BNPL Method</div>
+            <div class="font-bold">4 Times (SAR 2,037.28 per month)</div>
           </div>
         </div>
-        <div class="col-span-7 bg-white rounded-xl p-8 pb-16 overflow-hidden relative">
-          <div class="font-bold text-lg mb-6">Please enter your payment details</div>
-          <div class="flex border-b border-grey-200 mb-4">
-            <a href="#"
-              class="w-full text-center text-grey-300 relative pb-4 font-bold text-main border-b-4 border-main hover:text-main">Debit
-              or
-              Credit
-              Card</a>
-            <a href="#" class="w-full text-center text-grey-300 relative pb-4 hover:text-main">Direct Debit</a>
-            <a href="#" class="w-full text-center text-grey-300 relative pb-4 hover:text-main">Wire Transfer</a>
-            <a href="#" class="w-full text-center text-grey-300 relative pb-4 hover:text-main">Sadad</a>
+        <div class="mb-6">
+          <div class="font-bold text-xl mb-1">Payment Details</div>
+          <div class="flex items-center justify-between">
+            <div class="text-grey-300 mr-2">Total Purchase Amount
+              SAR 8,149.12</div>
+            <div class="font-bold">SAR 8,149.12</div>
           </div>
-          <div class="bg-grey-100 p-6 rounded-xl mb-4">
-            <div class="border border-grey-300 p-4 mb-4 rounded-xl relative">
-              <label for="" class="block mb-1">Card’s Nickname</label>
-              <input type="text" name="card-name" class="font-bold block w-full outline-none bg-transparent"
-                placeholder="Please enter">
-            </div>
-            <div class="border border-grey-300 p-4 mb-4 rounded-xl relative">
-              <label for="" class="block mb-1">Card Number</label>
-              <input type="text" name="card-number" class="font-bold block w-full outline-none bg-transparent"
-                placeholder="Please enter">
-            </div>
-            <div class="border border-grey-300 p-4 mb-4 rounded-xl relative">
-              <label for="" class="block mb-1">Expiry date</label>
-              <input type="text" name="card-date" class="font-bold block w-full outline-none bg-transparent"
-                placeholder="••/••">
-            </div>
-            <div class="border border-grey-300 p-4 mb-4 rounded-xl relative">
-              <div id=" toggle-password" class="
-            absolute top-1/2 right-4 cursor-pointer">
-                <img src="img/icons/info-icon_blue.svg" alt="info">
-              </div>
-              <label for="" class="block mb-1">CVV Code</label>
-              <input type="password" name="card-cvv" class="font-bold block w-full outline-none bg-transparent"
-                placeholder="Please enter">
-            </div>
+          <div class="flex items-center justify-between">
+            <div class="text-grey-300 mr-2">First Payment</div>
+            <div class="font-bold">Later</div>
           </div>
-          <div class="flex items-center justify-between text-2xl font-bold">
-            <div class="mr-2 ">1/4 pay today</div>
-            <div class="">SAR 2,037.28</div>
+        </div>
+        <div class="mb-6">
+          <div class="flex items-center justify-between font-bold text-2xl">
+            <div class="mr-2">Amount to Pay</div>
+            <div class="font-bold">SAR 2,037.28</div>
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="text-grey-300 mr-2"></div>
+            <div class="text-grey-300">1 out of 4 payments</div>
           </div>
         </div>
       </div>
-      <div class="flex justify-end font-bold">
+      <div class="flex justify-center items-center flex-col">
+        <div class="mb-3.5">Press done to go back to the merchant page</div>
         <button class="bg-gradient-to-r from-blue-400 max-w-w172 w-full to-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-8
-        rounded-md whitespace-nowrap">Next</button>
+      rounded-md whitespace-nowrap mx-auto">Next</button>
       </div>
     </div>
   </section>
